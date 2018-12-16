@@ -1,0 +1,52 @@
+body {
+  background-color: #f7f4e3;
+}
+.navbar {
+  border-bottom: 0.3em solid #f9c4aa;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Chelsea Market', cursive;
+}
+
+.container {
+  background-color: white;
+  margin-top: 1em;
+}
+
+.fa-mountain {
+  color: #d2e1c8;
+}
+
+.fa-sun {
+  color: #fee4a6;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin img {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.register input {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
